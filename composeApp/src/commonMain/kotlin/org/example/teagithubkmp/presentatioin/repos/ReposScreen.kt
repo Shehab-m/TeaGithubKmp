@@ -12,7 +12,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.teacomputers.teagithub.presentation.composable.Loading
+import org.example.teagithubkmp.presentatioin.composable.Loading
 import com.teacomputers.teagithub.presentation.composable.TAnimationContent
 import com.teacomputers.teagithub.presentation.repos.composable.ItemRepo
 import org.example.teagithubkmp.presentatioin.base.EventHandler

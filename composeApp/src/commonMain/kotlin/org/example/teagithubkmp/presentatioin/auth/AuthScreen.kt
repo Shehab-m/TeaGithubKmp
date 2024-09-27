@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.teacomputers.teagithub.presentation.auth.AuthUiState
 import org.example.teagithubkmp.presentatioin.base.EventHandler
-import com.teacomputers.teagithub.presentation.composable.Loading
+import org.example.teagithubkmp.presentatioin.composable.Loading
 import com.teacomputers.teagithub.presentation.composable.TAnimationContent
 import org.example.teagithubkmp.presentatioin.repos.navigateToReposScreen
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -29,14 +29,14 @@ fun AuthScreen() {
 //    val context = LocalContext.current
     EventHandler(viewModel.effect) { effect, navController ->
         when (effect) {
-            is AuthUiEffect.HandleOauthIntent -> {
+//            is AuthUiEffect.HandleOauthIntent -> {
 //                Toast.makeText(
 //                    context,
 //                    context.getString(R.string.opening_github_for_login),
 //                    Toast.LENGTH_LONG
 //                ).show()
 //                context.startActivity(effect.intent)
-            }
+//            }
 
             is AuthUiEffect.SendToast -> {
 //                Toast.makeText(context, effect.message, Toast.LENGTH_LONG).show()
